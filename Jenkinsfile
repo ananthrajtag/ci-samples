@@ -3,6 +3,7 @@ pipeline {
         docker {
             image 'katalonstudio/katalon'
             args "-u root"
+            label "LINUX"
         }
     }
     stages {
